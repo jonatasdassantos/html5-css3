@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+        h1,h2 {
+            text-align: center;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color:rgb(124, 116, 116) ;
+            padding: 3px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            margin: 10px;
+            font-weight: bold;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: gray;
+            padding: 10px;
+            margin: 0px;
+        }
+        section {
+            background-color: white;
+            padding: 5px;
+           }
+        article > aside {
+            background-color: grey;
+            color: white;
+            text-align: center;
+        } 
+         footer{
+            text-align: center;
+            background-color: rgb(22, 21, 21);
+            color: white;
+            font-weight: bold;
+         }
+        
+         footer:hover{
+            text-decoration: underline;
+         } 
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Lin</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+       
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esporte Polica Games</p>
+        </section>
+        <section id="noticias">
+            <h2>Noticias sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim exercitationem voluptatem eaque tempore iste minima quae adipisci ipsam ea, amet explicabo perferendis, eveniet consequuntur doloribus unde consequatur ad. Quibusdam, facilis.</p>
+            <article>
+                <aside>
+                    <p>artigo escrito por jonatas da silva santos</p>
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>desemvolvido por jonatas</p>
+
+    </footer>
+</body>
+</html>

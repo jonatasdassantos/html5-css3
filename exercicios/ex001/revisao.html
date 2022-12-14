@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo classe</title>
+
+    <style>
+       
+        
+        div{
+           
+            display: inline-block;
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+
+        div#n1:hover{
+            background-color: chartreuse;
+        }
+        div#n2:hover {
+            background-color: chocolate;
+        }
+
+        div#n3:hover {
+            background-color: darkgreen;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div#n1:hover > p{
+            background-color: blue;
+            display: block;
+            color: white;
+            width: 200px;
+        } 
+
+        div#n2:hover > p{
+            background-color: rgb(255, 38, 0);
+            display: block;
+            color: white;
+            width: 200px;
+        } 
+
+        div#n3:hover > p{
+            background-color: darksalmon;
+            display: block;
+            color: white;
+            width: 200px;
+        } 
+
+    </style>
+</head>
+<body>
+    <div id="n1">
+        01
+        <p>numero 01</p>
+
+    </div>
+    <div id="n2">
+        02
+        <p>numero 02</p>
+    </div>
+    <div id="n3">
+        03
+        <p>numero 03</p>
+    </div>
+    
+
+
+</body>
+</html>
