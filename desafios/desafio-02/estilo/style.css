@@ -111,7 +111,7 @@ footer > p > a {
 
 #img02 {
     background-position: right center;
-    background-image: url(imagens/cartas.jpg);
+    background-image: url('imagens/cartas.jpg');
 }
 
 .imagem {
