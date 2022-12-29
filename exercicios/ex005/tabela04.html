@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupando colunas com colgroup</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+        caption {
+            background-color: rgb(127, 255, 144);
+            font-size: 1.5em;
+            padding: 10px;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .vermelho {
+            background-color:red;
+        }
+        .azul {
+            background-color: blue;
+        }
+        .cinza {
+            background-color: dimgray;
+        }
+        .preto {
+            background-color: rgba(0, 0, 0, 0.301);
+           
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="vermelho">
+            <col class="azul">
+            <col class="cinza">
+            <col class="preto">
+        </colgroup>
+        <caption>
+            Agrupando com colgroup
+        </caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Jonatas</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Repositor</td>
+        </tr>
+        <tr>
+            <td>Maria Dulce</td>
+            <td>F</td>
+            <td>56</td>
+            <td>Dona de casa</td>
+        </tr>
+        <tr>
+            <td>Renilda</td>
+            <td>F</td>
+            <td>32</td>
+            <td>Aposentada</td>
+        </tr>
+        <tr>
+            <td>Tiago</td>
+            <td>M</td>
+            <td>38</td>
+            <td>Desempregado</td>
+        </tr>
+    </table>
+</body>
+</html>
